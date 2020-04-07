@@ -5,7 +5,7 @@ ENV WS_USER=wsuser \
     WS_UID=5000 \
     WS_PASSWD=vncpasswd \
     WS_VERSION=1.1 \
-    VNC_RESOLUTION=1280x1024 \ 
+    VNC_RESOLUTION=1280x1024
 
 # Install base( except "X Window System" "fonts" )
 RUN yum update -y && yum groupinstall -y "Desktop" "Chinese Support" \
